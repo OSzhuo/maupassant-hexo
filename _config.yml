@@ -85,6 +85,8 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
 links:
   - title: 屠城
     url: https://www.haomwei.com
+  - title: XAOXUU
+    url: https://xaoxuu.com
   - title: 欢迎交换友链
     url: http://www.ilx.info
 
