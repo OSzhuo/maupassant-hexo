@@ -61,6 +61,9 @@ copycode: true ## If you want to enable one-click copy of the code blocks, set t
 dark: false ## If you want to use the dark mode theme, set the value to true. Note: This feature is not complete, please open an issue if you have any problem.
 
 menu:
+  - page: Plus
+    directory: https://ilx.info
+    icon: fa-anchor
   - page: home
     directory: .
     icon: fa-home
