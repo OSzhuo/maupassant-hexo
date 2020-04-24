@@ -1,7 +1,7 @@
 #footer= 'Copyright © ' + date(Date.now(), 'YYYY') + ' '
   a(href=url_for('.'), rel='nofollow')= config.title + '.'
-  if theme.busuanzi
-    script(src='https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', async)
+  if theme.busuanzi.enable
+    script(src= theme.busuanzi.js || 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', async)
   div()
     each v, i in theme.badges
       - var type = ''
