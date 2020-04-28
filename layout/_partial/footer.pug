@@ -1,5 +1,8 @@
 #footer= 'Copyright © ' + date(Date.now(), 'YYYY') + ' '
-  a(href=url_for('.'), rel='nofollow')= config.title + '.'
+  a(href=url_for('.'), rel='nofollow')= config.title + ' | '
+  a(href=url_for('http://www.beian.miit.gov.cn'), rel='nofollow')= '京ICP备20012798号-1' + ' | '
+  img(src=url_for('/images/net110.png'), rel='nofollow', style='height: 0.8rem')
+  a(href=url_for('http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37132202200004'), rel='nofollow')= ' 鲁公网安备 37132202200004号'
   if theme.busuanzi.enable
     script(src= theme.busuanzi.js || 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', async)
   div()
