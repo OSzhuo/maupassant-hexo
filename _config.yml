@@ -64,7 +64,7 @@ dark: false ## If you want to use the dark mode theme, set the value to true. No
 
 menu:
   - page: Plus
-    directory: https://0bject.cn
+    directory: https://totoro.tech
     icon: fa-anchor
   - page: home
     directory: .
@@ -95,7 +95,7 @@ links:
   - title: Charlie
     url: https://charlie-zzy.github.io
   - title: 欢迎交换友链
-    url: http://www.0bject.cn
+    url: http://www.totoro.tech
 
 timeline:
   - num: 1
